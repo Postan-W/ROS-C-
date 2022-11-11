@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wmz/桌面/ros_workspace/space1/src
+CMAKE_SOURCE_DIR = /home/wmz/ROS_HOME/ROS-C-/space1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wmz/桌面/ros_workspace/space1/build
+CMAKE_BINARY_DIR = /home/wmz/ROS_HOME/ROS-C-/space1/build
 
 # Utility rule file for roscpp_generate_messages_py.
 
@@ -63,10 +63,10 @@ hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/build: roscpp_generate_mess
 .PHONY : hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/build
 
 hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	cd /home/wmz/桌面/ros_workspace/space1/build/hello_ros && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/wmz/ROS_HOME/ROS-C-/space1/build/hello_ros && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/depend:
-	cd /home/wmz/桌面/ros_workspace/space1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wmz/桌面/ros_workspace/space1/src /home/wmz/桌面/ros_workspace/space1/src/hello_ros /home/wmz/桌面/ros_workspace/space1/build /home/wmz/桌面/ros_workspace/space1/build/hello_ros /home/wmz/桌面/ros_workspace/space1/build/hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wmz/ROS_HOME/ROS-C-/space1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wmz/ROS_HOME/ROS-C-/space1/src /home/wmz/ROS_HOME/ROS-C-/space1/src/hello_ros /home/wmz/ROS_HOME/ROS-C-/space1/build /home/wmz/ROS_HOME/ROS-C-/space1/build/hello_ros /home/wmz/ROS_HOME/ROS-C-/space1/build/hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/depend
 

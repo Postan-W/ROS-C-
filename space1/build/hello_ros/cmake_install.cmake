@@ -1,8 +1,8 @@
-# Install script for directory: /home/wmz/桌面/ros_workspace/space1/src/hello_ros
+# Install script for directory: /home/wmz/ROS_HOME/ROS-C-/space1/src/hello_ros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wmz/桌面/ros_workspace/space1/install")
+  set(CMAKE_INSTALL_PREFIX "/home/wmz/ROS_HOME/ROS-C-/space1/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wmz/桌面/ros_workspace/space1/build/hello_ros/catkin_generated/installspace/hello_ros.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wmz/ROS_HOME/ROS-C-/space1/build/hello_ros/catkin_generated/installspace/hello_ros.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_ros/cmake" TYPE FILE FILES
-    "/home/wmz/桌面/ros_workspace/space1/build/hello_ros/catkin_generated/installspace/hello_rosConfig.cmake"
-    "/home/wmz/桌面/ros_workspace/space1/build/hello_ros/catkin_generated/installspace/hello_rosConfig-version.cmake"
+    "/home/wmz/ROS_HOME/ROS-C-/space1/build/hello_ros/catkin_generated/installspace/hello_rosConfig.cmake"
+    "/home/wmz/ROS_HOME/ROS-C-/space1/build/hello_ros/catkin_generated/installspace/hello_rosConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_ros" TYPE FILE FILES "/home/wmz/桌面/ros_workspace/space1/src/hello_ros/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_ros" TYPE FILE FILES "/home/wmz/ROS_HOME/ROS-C-/space1/src/hello_ros/package.xml")
 endif()
 

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "hello_ros"
-PROJECT_SPACE_DIR = "/home/wmz/桌面/ros_workspace/space1/devel"
+PROJECT_SPACE_DIR = "/home/wmz/ROS_HOME/ROS-C-/space1/devel"
 PROJECT_VERSION = "0.0.0"
