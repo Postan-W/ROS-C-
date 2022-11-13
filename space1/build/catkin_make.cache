@@ -1,2 +1,2 @@
-hello_ros
+hello_ros:hello_topic
 -DCATKIN_DEVEL_PREFIX=/home/wmz/ROS_HOME/ROS-C-/space1/devel -DCMAKE_INSTALL_PREFIX=/home/wmz/ROS_HOME/ROS-C-/space1/install -G Unix Makefiles

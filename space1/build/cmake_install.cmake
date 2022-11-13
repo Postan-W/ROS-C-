@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/wmz/ROS_HOME/ROS-C-/space1/build/gtest/cmake_install.cmake")
   include("/home/wmz/ROS_HOME/ROS-C-/space1/build/hello_ros/cmake_install.cmake")
+  include("/home/wmz/ROS_HOME/ROS-C-/space1/build/hello_topic/cmake_install.cmake")
 
 endif()
 

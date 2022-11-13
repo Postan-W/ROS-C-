@@ -1,0 +1,8 @@
+prefix=/home/wmz/ROS_HOME/ROS-C-/space1/devel
+
+Name: hello_topic
+Description: Description of hello_topic
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

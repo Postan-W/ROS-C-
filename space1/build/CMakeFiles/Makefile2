@@ -917,6 +917,24 @@ clean: hello_ros/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory hello_topic
+
+# Convenience name for "all" pass in the directory.
+hello_topic/all:
+
+.PHONY : hello_topic/all
+
+# Convenience name for "clean" pass in the directory.
+hello_topic/clean:
+
+.PHONY : hello_topic/clean
+
+# Convenience name for "preinstall" pass in the directory.
+hello_topic/preinstall:
+
+.PHONY : hello_topic/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.
