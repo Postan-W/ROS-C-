@@ -1,2 +1,2 @@
 # ROS-C-
-C++ code for robot based ROS.  2022.11 wmingzhu
+C++ or Python code for robot. Based on ROS.  2022.11 wmingzhu
