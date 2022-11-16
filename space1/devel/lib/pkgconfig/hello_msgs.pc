@@ -1,0 +1,8 @@
+prefix=/home/wmz/ROS_HOME/ROS-C-/space1/devel
+
+Name: hello_msgs
+Description: Description of hello_msgs
+Version: 0.0.0
+Cflags: -I/home/wmz/ROS_HOME/ROS-C-/space1/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rosmsg rospy message_runtime
